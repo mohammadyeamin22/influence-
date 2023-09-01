@@ -1,0 +1,108 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+ 
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    
+    
+  
+}
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+/* header media-start */
+.container-1{
+    margin-top: 30px;
+}
+.container-1 h1{
+    width: 300%;
+    font-size: 22px;
+}
+.container-1 p{
+    width: 200%;
+}
+.container-1 a{
+    width: 200%;
+}
+.container img{
+    width: 100%;
+}
+/* header media-end */
+
+/* icon media-start */
+.icon{
+    margin-top: 80px;
+    width: 100%;
+}
+
+
+/* icon media-end */
+/* colletion media-start */
+
+.parent{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-right: 190px;
+}
+
+/* collection  media-end */
+
+/* products media-start */
+.container-2{
+    margin-top: 100px;
+    margin-right: 115px;
+}
+.container-2 h1{
+    width: 300%;
+    font-size: 18px;
+    
+}
+.container-2 p{
+    width: 183%;
+    font-size: 14px;
+}
+.container-2 a{
+    width: 200%;
+}
+.container-img{
+    width: 43%
+    ;
+
+
+}
+.wrapper-pro{
+    margin-left: 0px;
+}
+/* products media-end */
+/* footer media-start */
+.parents{
+    margin-left: 0px;
+}
+/* footer media-end */
+}
+
+
+
+
+
+
+  
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+  
+}
+
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width:1399.98px){
+  
+}
+ /* Extra Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+ 
+    
+}
