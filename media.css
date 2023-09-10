@@ -1,104 +1,195 @@
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
- 
+    .wrapper{
+        flex-direction: column-reverse;
+    
+       }
+       .container-1{
+        width: 90%;
+       }
+       .container-1 h1{
+        font-size: 25px;
+       }
+       .container-1 p{
+        font-size: 14px;
+        margin-top: 9px;
+      }
+      .container-1 a{
+        padding: 8px 10px;
+        border-radius: 10px;
+      }
+       .container{
+        width: 100%;
+        margin-top: 0px;
+       }
+       .container img{
+        width: 98%;
+       }
+       /* collection medai css-start */
+       .wrapper-second{
+        grid-template-columns: repeat(1,1fr);
+
+       }
+       /* collection medai css-end */
+
+       /* products media css-start */
+.wrapper-pro{
+    flex-direction: column;
+    margin-top: 50px;
+}
+.container{
+    width: 95%;
+    margin-left: 15px;
+    
+}
+.container-2{
+    margin-top: 35px;
+}
+/* products media css-end */
+
+/* footer media css-start */
+.parents{
+    margin-right: -17px
+}
+/* footer media css-end */
+       
+
+   
+   
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
-    
-    
+    /* header media css-start */
   
+   .wrapper{
+    flex-direction: column-reverse;
+
+   }
+   .container-1{
+    width: 90%;
+   }
+   .container-1 h1{
+    font-size: 25px;
+   }
+  
+   .container{
+    width: 75%;
+    margin-top: 0px;
+   }
+   
+/* header media css-end */
+/* collection media css-start */
+
+.wrapper-second{
+    grid-template-columns: repeat(1,1fr);
+}
+/* collection media css-end */
+
+/* products media css-start */
+.wrapper-pro{
+    flex-direction: column;
+    margin-top: 50px;
+}
+.container{
+    width: 65%;
+    margin-left: 15px;
+    
+}
+.container-2{
+    margin-top: 35px;
+}
+/* products media css-end */
 }
 
  /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
-/* header media-start */
-.container-1{
-    margin-top: 30px;
-}
-.container-1 h1{
-    width: 300%;
-    font-size: 22px;
-}
-.container-1 p{
-    width: 200%;
-}
-.container-1 a{
-    width: 200%;
-}
-.container img{
-    width: 100%;
-}
-/* header media-end */
-
-/* icon media-start */
-.icon{
-    margin-top: 80px;
-    width: 100%;
-}
+    /* header media css-start */
+    .container-1{
+        width: 54%;
+        margin-left: 20px;
+    }
+    .container-1 h1{
+        font-size: 33px;
+    }
+    .container{
+        width:45% ;
+        padding-left: 10%;
+    }
+    /* header media css-end */
 
 
-/* icon media-end */
-/* colletion media-start */
-
-.parent{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    margin-right: 190px;
+    /* collection media css-start */
+.wrapper-second{
+grid-template-columns: repeat(2,1fr);
 }
-
-/* collection  media-end */
-
-/* products media-start */
-.container-2{
-    margin-top: 100px;
-    margin-right: 115px;
-}
-.container-2 h1{
-    width: 300%;
-    font-size: 18px;
-    
-}
-.container-2 p{
-    width: 183%;
-    font-size: 14px;
-}
-.container-2 a{
-    width: 200%;
-}
-.container-img{
-    width: 43%
-    ;
+    /* collection media css-end */
 
 
-}
-.wrapper-pro{
-    margin-left: 0px;
-}
-/* products media-end */
-/* footer media-start */
-.parents{
-    margin-left: 0px;
-}
-/* footer media-end */
-}
+    /* product media css-start */
+    .container{
+        width: 40%;
+        padding-left: 5%;
+    }
+    .container-2{
+        margin-left: 0px;
+    }
+    .container-2 h1{
+        font-size: 24px;
+    }
+    .container-2 p{
+        font-size: 14px;
+    }
+    /* product media css-end */
 
 
 
+}
 
 
-
-  
 
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
+    /* header media css-start */
+    .container-1 {
+        width: 50%;
+        margin-top: 115px;
+        margin-right: 80px;
+    }
+    /* header media css-end */
+    /* collection media css-start */
+    .collection{
+        margin-left: 61px;
+    }
+    .wrapper-second{
+        gap: 10px;
+    }
+    /* collection media css-end */
+    /* products media css-start */
+    .container{
+        margin-left: 120px;
+        width: 55%;
+    }
+    .container-2{
+        margin-left: 75px;
+        margin-bottom: 50px;
 
+    }
+    /* products media css-end */
+
+    /* footer media css-start */
+    .parents{
+        margin-right: -60px;
+    }
+    /* footer media css-end */
+    
   
 }
 
  /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) and (max-width:1399.98px){
+   
   
 }
  /* Extra Extra large devices (large desktops, 1400px and up) */
